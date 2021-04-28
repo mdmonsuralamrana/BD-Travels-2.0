@@ -1,0 +1,56 @@
+.home-page{
+    background-image: linear-gradient(90deg, #181818a1 , #0a0a0a9f), url(../Photos/traffic1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+.travel-system{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-gap: 30px;
+    margin-top: 170px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.travel-via {
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+}
+
+.travel-via img {
+    padding-top: 35px;
+    width: 60%;
+}
+
+.travel-via h4{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+    padding-top:10px;
+}
+
+@media (max-width:575px){
+    .travel-system{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .travel-via{
+        height: fit-content;
+    }
+}

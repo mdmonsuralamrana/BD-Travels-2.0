@@ -1,0 +1,38 @@
+.header{
+    z-index: 100;
+    position: relative;
+}
+
+.navbar{
+    background-color: rgb(127, 102, 240);
+    line-height: 10px;
+    font-size: 20px;
+    padding-top: 15px;
+    text-decoration: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    padding: 5px;
+}
+nav a:hover{
+    background-color: gray;
+    border-radius: 3px;
+}
+
+.nav-link{
+    padding-left: 300px;
+    text-align: left;
+    z-index: 0;
+}
+
+@media(max-width:575px){
+    .navbar{
+        text-align: center;
+    }
+    .name{
+        text-align: center;
+    }
+}

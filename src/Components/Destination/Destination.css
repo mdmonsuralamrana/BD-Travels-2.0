@@ -1,0 +1,55 @@
+.destination-container{
+    display:flex;
+}
+
+.select-location{
+    background-color:aquamarine;
+    border-radius:15px;
+    width:30%;
+    padding:50px;
+    margin: 20px 50px;
+}
+
+.search-button{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.travel-from{
+    text-align: left;
+}
+
+.travel-to{
+    text-align: left;
+}
+
+.search-button{
+    text-align: center;
+}
+
+.map-part{
+    width: 70%;
+    border-left: 1px solid black;
+    padding-left: 20px;
+}
+
+.travel-location{
+    font-size: 30px;
+    color:lightsalmon;
+}
+
+@media (max-width:575px){
+    .travel-location{
+        font-size: 30px;
+        text-align: center;
+        padding-right: 20px;
+    }
+    .form-part{
+        text-align:center;
+        background-color:aquamarine;
+        background-position: center;
+    }
+    .destination-container{
+        display:contents;
+    }
+}
